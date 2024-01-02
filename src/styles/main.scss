@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1E213D;
+    color: #9193A3;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+        
+    section {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        border: 2px dashed #4D5170;
+        padding: 16px;
+
+        text-align: center;
+
+    .text {
+        font-size: 2em;
+        margin-bottom: 8px;
+    }
+
+    .nome {
+        font-size: 4em;
+        font-family: 'Sevillana', cursive;
+        color: #828FFF;
+        margin-bottom: 8px;
+    }
+
+    .contador {
+        font-size: 2.5em;
+        color: #828FFF;
+        margin-bottom: 8px;
+    }
+
+    .idade {
+        margin-bottom: 8px;
+    }
+
+    span {
+        display: block;
+    }
+    }
+}
+
+@media (min-width: 992px) {
+    section {
+        max-width: 40%;
+    }
+}
